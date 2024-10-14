@@ -1,0 +1,53 @@
+.container .detail-info[data-v-4b2f210f] {
+  font-size: 12px;
+  color: #999;
+  display: flex;
+  gap: 10px;
+}
+.container .content-container[data-v-4b2f210f] {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.container .name-container[data-v-4b2f210f] {
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+}
+.container .name-container .name[data-v-4b2f210f] {
+  margin-right: 10px;
+  font-size: 16px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.container .name-container .status[data-v-4b2f210f] {
+  flex: none;
+  font-size: 12px;
+  margin-right: 10px;
+}
+.container .btns[data-v-4b2f210f] {
+  flex: none;
+  display: flex;
+  gap: 4px;
+}
+.container .btns .btn[data-v-4b2f210f] {
+  padding: 5px;
+}
+.container .btns .btn[data-v-4b2f210f]:hover {
+  background: #e2e6ea;
+  border-radius: 50%;
+}
+.container[data-v-1fb59a37] {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.container .item[data-v-1fb59a37] {
+  border-bottom: 1px solid #eee;
+  padding: 10px 5px;
+  padding-top: 0;
+}
+.container .item .sub-item[data-v-1fb59a37] {
+  margin-left: 15px;
+}

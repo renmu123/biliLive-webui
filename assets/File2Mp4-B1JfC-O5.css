@@ -1,0 +1,9 @@
+.radio-group2[data-v-faa86312] .n-radio {
+  align-items: center;
+}
+.btns[data-v-faa86312] {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+}

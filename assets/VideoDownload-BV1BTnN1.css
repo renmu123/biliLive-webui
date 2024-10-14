@@ -1,0 +1,35 @@
+.container[data-v-30da6622] {
+  margin-top: 40px;
+}
+.file-container[data-v-30da6622] {
+  height: 200px;
+  overflow: auto;
+  border: 1px solid #eeeeee;
+  border-radius: 4px;
+  padding: 10px;
+}
+.file-container .file[data-v-30da6622] {
+  margin-bottom: 5px;
+  display: flex;
+  align-items: center;
+}
+.download-btn[data-v-30da6622] {
+  width: 100%;
+  margin-top: 10px;
+}
+.path[data-v-30da6622] {
+  border-radius: 4px;
+  padding: 5px 0px;
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+}
+.container[data-v-4e0a7c12] {
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 60px;
+}
+.input[data-v-4e0a7c12] {
+  display: flex;
+  align-items: center;
+}
