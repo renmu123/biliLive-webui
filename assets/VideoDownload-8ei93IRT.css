@@ -1,0 +1,34 @@
+.container[data-v-20d239bb] {
+  margin-top: 40px;
+}
+.file-container[data-v-20d239bb] {
+  height: 200px;
+  overflow: auto;
+  border: 1px solid #eeeeee;
+  border-radius: 4px;
+  padding: 10px;
+}
+.file-container .file[data-v-20d239bb] {
+  margin-bottom: 5px;
+  display: flex;
+  align-items: center;
+}
+.download-btn[data-v-20d239bb] {
+  width: 100%;
+  margin-top: 10px;
+}
+.path[data-v-20d239bb] {
+  border-radius: 4px;
+  padding: 5px 0px;
+  display: flex;
+  align-items: center;
+}
+.container[data-v-f57f0d55] {
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 60px;
+}
+.input[data-v-f57f0d55] {
+  display: flex;
+  align-items: center;
+}

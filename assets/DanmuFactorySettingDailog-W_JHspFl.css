@@ -1,0 +1,41 @@
+.button-group[data-v-5e500bba] {
+  display: inline-flex;
+  align-items: stretch;
+}
+.icon-container[data-v-5e500bba] {
+  border-radius: 0px 3px 3px 0px;
+  position: relative;
+  width: 22px;
+  cursor: pointer;
+  border-left: 1px solid #358457;
+  padding: 0 4px;
+  background: #18a058;
+}
+.icon-container[data-v-5e500bba]:hover {
+  background: #36ad6a;
+}
+.icon-container .icon[data-v-5e500bba] {
+  position: absolute;
+  top: 50%;
+  transform: translate(0%, -50%);
+}
+.icon-container .cart-down-icon[data-v-5e500bba] {
+  color: white;
+}
+@media screen and (prefers-color-scheme: dark) {
+.icon-container[data-v-5e500bba] {
+    border-left: 1px solid #358457;
+    background: #63e2b7;
+}
+.icon-container[data-v-5e500bba]:hover {
+    background: #7fe7c4;
+}
+.icon-container .cart-down-icon[data-v-5e500bba] {
+    color: white;
+}
+}
+.footer[data-v-60bdb4dd] {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}

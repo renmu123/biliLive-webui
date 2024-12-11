@@ -1,0 +1,26 @@
+@media screen and (prefers-color-scheme: dark) {
+body {
+    background-color: #18181c;
+}
+}
+.login-card[data-v-c7286f9e] {
+  width: 400px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.github-corner[data-v-c7286f9e] {
+  transition: transform 0.25s ease-out;
+  position: fixed;
+  top: 0;
+  right: 0;
+  border: 0;
+  z-index: 100;
+  width: 100px;
+  height: 100px;
+}
+.github-corner svg[data-v-c7286f9e] {
+  color: #fff;
+  fill: var(--theme-color, #42b983);
+}
