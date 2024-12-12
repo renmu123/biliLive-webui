@@ -1,0 +1,37 @@
+.filter[data-v-0d3a4f6a] {
+  margin-bottom: 10px;
+}
+.file-list[data-v-0d3a4f6a] {
+  list-style-type: none;
+  padding: 0;
+  margin: 20px 0;
+}
+.file-list li[data-v-0d3a4f6a] {
+  padding: 10px;
+  cursor: pointer;
+  margin-bottom: 5px;
+  user-select: none;
+}
+.file-list li.selected[data-v-0d3a4f6a] {
+  background-color: #ddd;
+}
+@media screen and (prefers-color-scheme: dark) {
+.file-list li.selected[data-v-0d3a4f6a] {
+    background-color: rgba(255, 255, 255, 0.09);
+}
+}
+.file-list li[data-v-0d3a4f6a]:hover:hover {
+  background-color: #eee;
+}
+@media screen and (prefers-color-scheme: dark) {
+.file-list li[data-v-0d3a4f6a]:hover:hover {
+    background-color: rgba(255, 255, 255, 0.09);
+}
+}
+.file-actions[data-v-0d3a4f6a] {
+  display: flex;
+  justify-content: flex-end;
+}
+button[data-v-0d3a4f6a] {
+  margin-left: 10px;
+}

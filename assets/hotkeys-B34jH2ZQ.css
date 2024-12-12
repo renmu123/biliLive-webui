@@ -1,0 +1,41 @@
+.file-selet[data-v-afd9751e] {
+  height: 200px;
+  border: 1px dashed #e0e0e6;
+  border-radius: 3px;
+  overflow: auto;
+  padding: 10px;
+}
+.file-selet.dragging[data-v-afd9751e] {
+  border: 1px dashed #18a058;
+}
+.file[data-v-afd9751e] {
+  margin-bottom: 10px;
+}
+.file .file-content[data-v-afd9751e] {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.file .file-content .remove-icon[data-v-afd9751e] {
+  cursor: pointer;
+}
+.file .file-content .remove-icon.in-progress[data-v-afd9751e] {
+  color: #ccc;
+  cursor: not-allowed;
+}
+.file .file-content .remove-icon.in-progress[data-v-afd9751e]:hover {
+  color: #ccc;
+}
+.file .file-content .remove-icon[data-v-afd9751e]:hover {
+  color: red;
+}
+.file-selet[data-v-afd9751e]:hover {
+  border: 1px dashed #18a058;
+}
+.empty[data-v-afd9751e] {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 100%;
+}
