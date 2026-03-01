@@ -1,0 +1,27 @@
+.filter[data-v-c5c3a1d6] {
+  margin-bottom: 10px;
+}
+.file-list[data-v-c5c3a1d6] {
+  list-style-type: none;
+  padding: 0;
+  margin: 20px 0;
+}
+.file-list li[data-v-c5c3a1d6] {
+  padding: 10px;
+  cursor: pointer;
+  margin-bottom: 5px;
+  user-select: none;
+}
+.file-list li.selected[data-v-c5c3a1d6] {
+  background-color: var(--bg-hover);
+}
+.file-list li[data-v-c5c3a1d6]:hover:hover {
+  background-color: var(--bg-hover);
+}
+.file-actions[data-v-c5c3a1d6] {
+  display: flex;
+  justify-content: flex-end;
+}
+button[data-v-c5c3a1d6] {
+  margin-left: 10px;
+}

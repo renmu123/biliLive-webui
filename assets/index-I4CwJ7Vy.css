@@ -1,0 +1,48 @@
+.actions[data-v-40eba2d1] {
+  display: flex;
+  gap: 10px;
+  justify-content: flex-end;
+}
+.resolution-control[data-v-40eba2d1] {
+  margin-bottom: 10px;
+}
+.resolution-checkbox-label[data-v-40eba2d1] {
+  font-weight: bold;
+  font-size: 14px;
+  color: #2080f0;
+}
+.resolution-settings[data-v-40eba2d1] {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px 24px;
+  width: 100%;
+}
+.resolution-dimension-group[data-v-40eba2d1],
+.resolution-option-group[data-v-40eba2d1] {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.resolution-section-title[data-v-40eba2d1] {
+  white-space: nowrap;
+}
+.dimension-separator[data-v-40eba2d1] {
+  font-weight: bold;
+  margin: 0 4px;
+}
+.resolution-default-message[data-v-40eba2d1] {
+  display: flex;
+  align-items: center;
+  margin-left: 20px;
+  color: #909399;
+  font-style: italic;
+}
+.footer[data-v-503af297] {
+  text-align: right;
+}
+.footer .btn + .btn[data-v-503af297] {
+  margin-left: 10px;
+}
+.radio-group[data-v-348a591e] .n-radio {
+  align-items: center;
+}

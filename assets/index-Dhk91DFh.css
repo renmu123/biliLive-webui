@@ -1,0 +1,24 @@
+body {
+  background-color: var(--bg-primary);
+}
+.login-card[data-v-87232467] {
+  width: 400px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.github-corner[data-v-87232467] {
+  transition: transform 0.25s ease-out;
+  position: fixed;
+  top: 0;
+  right: 0;
+  border: 0;
+  z-index: 100;
+  width: 100px;
+  height: 100px;
+}
+.github-corner svg[data-v-87232467] {
+  color: #fff;
+  fill: var(--theme-color, #42b983);
+}
