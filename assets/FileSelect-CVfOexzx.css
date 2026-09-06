@@ -1,0 +1,50 @@
+.draggable[data-v-0af4d87e] {
+  padding: 10px;
+  margin: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+}
+.draggable[data-v-0af4d87e]:has(.editable-text:focus) {
+  border: 1px solid #36ad6a;
+}
+.handle[data-v-0af4d87e] {
+  cursor: move;
+  margin-right: 10px;
+}
+.remove[data-v-0af4d87e] {
+  cursor: pointer;
+}
+.remove[data-v-0af4d87e] :hover {
+  color: #18a058;
+}
+.apd-icon[data-v-0af4d87e] {
+  margin-right: 5px;
+}
+.apd-toggle-off[data-v-0af4d87e] {
+  cursor: pointer;
+}
+.apd-toggle-on[data-v-0af4d87e] {
+  cursor: remove;
+}
+
+.empty-area[data-v-78306028] {
+  height: 200px;
+  border: 1px dashed rgb(224, 224, 230);
+  border-radius: 3px;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  cursor: pointer;
+  transition: border-color 0.2s;
+}
+.empty-area[data-v-78306028]:hover,
+.empty-area.dragging[data-v-78306028] {
+  border-color: #18a058;
+}
+.dragging[data-v-78306028] {
+  border-color: #18a058 !important;
+}

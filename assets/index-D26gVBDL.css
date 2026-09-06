@@ -1,0 +1,24 @@
+.main-container.VideoPlayer {
+  margin: 0 !important;
+}
+.file-player-page[data-v-c234cd01] {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100vh;
+}
+.header[data-v-c234cd01] {
+  padding: 6px 0;
+}
+.toolbar[data-v-c234cd01] {
+  display: flex;
+  justify-content: flex-end;
+}
+.player[data-v-c234cd01] {
+  flex: 1;
+  display: block;
+  background: #000;
+}
+.player-empty[data-v-c234cd01] {
+  padding: 48px 0;
+}

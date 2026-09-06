@@ -1,0 +1,14 @@
+.input[data-v-b894e454] {
+  width: 100%;
+  border: none;
+  cursor: pointer;
+  box-sizing: border-box;
+  padding: 0;
+  font-size: 15px;
+  caret-color: var(--color-primary);
+  background: none;
+  color: var(--text-primary);
+}
+.input[data-v-b894e454]:focus {
+  outline: none;
+}

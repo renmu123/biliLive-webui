@@ -1,0 +1,13 @@
+
+.file-browser-page[data-v-08ae84a1] {
+  padding: 20px;
+}
+.toolbar[data-v-08ae84a1] {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+}
+.breadcrumb-link[data-v-08ae84a1] {
+  cursor: pointer;
+}

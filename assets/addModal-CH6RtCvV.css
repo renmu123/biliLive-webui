@@ -1,0 +1,23 @@
+.footer[data-v-9b8018e4] {
+  text-align: right;
+}
+.footer .btn + .btn[data-v-9b8018e4] {
+  margin-left: 10px;
+}
+.global-checkbox[data-v-9b8018e4] {
+  flex: none;
+  margin-left: auto;
+}
+.global-checkbox[data-v-9b8018e4] .n-checkbox-box-wrapper {
+  margin-left: 10px;
+}
+.global-checkbox[data-v-9b8018e4] .n-checkbox__label {
+  padding-right: 0px;
+}
+.card[data-v-9b8018e4] .n-form-item-feedback-wrapper {
+  --n-feedback-height: 15px;
+}
+h2[data-v-9b8018e4] {
+  margin: 0;
+  margin-bottom: 4px;
+}

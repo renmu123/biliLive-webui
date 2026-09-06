@@ -1,0 +1,79 @@
+.footer[data-v-7d9bf23b] {
+  text-align: right;
+}
+.footer .btn + .btn[data-v-7d9bf23b] {
+  margin-left: 10px;
+}
+.login-btns[data-v-367638ee] {
+  display: inline-flex;
+  gap: 10px;
+}
+.container[data-v-367638ee] {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 20px;
+}
+.container .card[data-v-367638ee] {
+  padding: 10px;
+  width: 100px;
+  border-radius: 10px;
+  background-color: var(--bg-card);
+  justify-content: center;
+  align-items: center;
+  border: 1px solid var(--border-primary);
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+.container .card .face[data-v-367638ee] {
+  width: 80%;
+}
+.container .card .menu[data-v-367638ee] {
+  position: absolute;
+  bottom: 0px;
+  right: 5px;
+  color: var(--text-secondary);
+}
+.container .card.active[data-v-367638ee]::before {
+  content: "正在使用";
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  color: #ffffff;
+  background-color: var(--bg-modal);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+}
+.container .card.active .menu[data-v-367638ee] {
+  color: #eee;
+}
+.section[data-v-367638ee] {
+  padding: 5px 10px;
+  cursor: pointer;
+}
+.section[data-v-367638ee]:hover {
+  background-color: var(--bg-hover);
+}
+.section.section-danger[data-v-367638ee] {
+  color: var(--color-danger-text);
+}
+.expires[data-v-367638ee] {
+  z-index: 1000;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background: var(--color-success);
+  color: var(--text-inverse);
+  padding: 4px 6px;
+  border-radius: 0 10px 0 10px;
+  font-size: 10px;
+}
+.username[data-v-367638ee] {
+  color: var(--text-primary);
+}
