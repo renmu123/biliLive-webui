@@ -1,0 +1,42 @@
+.filter[data-v-f8f08746] {
+  margin-bottom: 10px;
+}
+.file-list[data-v-f8f08746] {
+  list-style-type: none;
+  padding: 0;
+  margin: 20px 0;
+}
+.file-list li[data-v-f8f08746] {
+  padding: 10px;
+  cursor: pointer;
+  margin-bottom: 5px;
+  user-select: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+}
+.file-list li.selected[data-v-f8f08746] {
+  background-color: var(--bg-hover);
+}
+.file-list li[data-v-f8f08746]:hover:hover {
+  background-color: var(--bg-hover);
+}
+.file-name[data-v-f8f08746] {
+  flex: 1;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.file-size[data-v-f8f08746] {
+  flex: none;
+  color: var(--text-color-3);
+  font-variant-numeric: tabular-nums;
+}
+.file-actions[data-v-f8f08746] {
+  display: flex;
+  justify-content: flex-end;
+}
+button[data-v-f8f08746] {
+  margin-left: 10px;
+}

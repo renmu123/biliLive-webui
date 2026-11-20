@@ -1,0 +1,18 @@
+
+.file-browser-page[data-v-74e51e9d] {
+  padding: 20px;
+}
+@media (max-width: 628px) {
+.file-browser-page[data-v-74e51e9d] {
+    padding: 0;
+}
+}
+.toolbar[data-v-74e51e9d] {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+}
+.breadcrumb-link[data-v-74e51e9d] {
+  cursor: pointer;
+}

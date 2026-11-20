@@ -1,0 +1,98 @@
+.footer[data-v-3d452bc5] {
+  text-align: right;
+}
+.footer .btn + .btn[data-v-3d452bc5] {
+  margin-left: 10px;
+}
+
+.content[data-v-cdd1eacd] {
+  text-align: center;
+}
+.footer[data-v-cdd1eacd] {
+  text-align: right;
+}
+.login-btns[data-v-b2ed6444] {
+  display: inline-flex;
+  gap: 10px;
+}
+.container[data-v-b2ed6444] {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 20px;
+}
+.container .card[data-v-b2ed6444] {
+  padding: 10px;
+  width: 100px;
+  border-radius: 10px;
+  background-color: var(--bg-card);
+  justify-content: center;
+  align-items: center;
+  border: 1px solid var(--border-primary);
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+.container .card .face[data-v-b2ed6444] {
+  width: 80%;
+}
+.container .card .menu[data-v-b2ed6444] {
+  position: absolute;
+  bottom: 0px;
+  right: 5px;
+  color: var(--text-secondary);
+}
+.container .card.active[data-v-b2ed6444]::before {
+  content: "正在使用";
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  color: #ffffff;
+  background-color: var(--bg-modal);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+}
+.container .card.active .menu[data-v-b2ed6444] {
+  color: #eee;
+}
+.section[data-v-b2ed6444] {
+  padding: 5px 10px;
+  cursor: pointer;
+}
+.section[data-v-b2ed6444]:hover {
+  background-color: var(--bg-hover);
+}
+.section.section-danger[data-v-b2ed6444] {
+  color: var(--color-danger-text);
+}
+.expires[data-v-b2ed6444] {
+  z-index: 1000;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background: var(--color-success);
+  color: var(--text-inverse);
+  padding: 4px 6px;
+  border-radius: 0 10px 0 10px;
+  font-size: 10px;
+}
+.expires.expired[data-v-b2ed6444] {
+  background: var(--color-danger-text);
+}
+.username[data-v-b2ed6444] {
+  color: var(--text-primary);
+}
+.face-placeholder[data-v-b2ed6444] {
+  width: 80%;
+  aspect-ratio: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--text-secondary);
+  background: var(--bg-hover);
+}
